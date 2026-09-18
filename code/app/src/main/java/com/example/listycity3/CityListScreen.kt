@@ -127,7 +127,7 @@ fun CityListScreen(
                                 )
                             val currentSelected = selectedCity
                             if (currentSelected != null) {
-                                updatedCity(currentSelected, upcity) // Works perfectly, no red line!
+                                updatedCity(currentSelected, upcity) 
                             }
                             updateCity = ""
                             updateProvince = " "
